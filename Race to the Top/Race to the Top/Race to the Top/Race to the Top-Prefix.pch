@@ -1,0 +1,22 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#define PATH_WIDTH 60
+#define EHMAP_STARTING_SCORE 15000
+#define EHMAP_SCORE_DECREMENT_AMOUNT 100
+#define EHTIMER_INTERVAL 0.1
+#define EHWALL_PENALTY 500
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif

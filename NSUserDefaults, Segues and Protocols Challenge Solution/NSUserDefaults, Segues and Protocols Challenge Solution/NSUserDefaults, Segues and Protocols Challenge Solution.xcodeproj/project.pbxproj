@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FED41091981331D002308C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FED41081981331D002308C1 /* Foundation.framework */; };
+		3FED410B1981331D002308C1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FED410A1981331D002308C1 /* CoreGraphics.framework */; };
+		3FED410D1981331D002308C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FED410C1981331D002308C1 /* UIKit.framework */; };
+		3FED41131981331E002308C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FED41111981331E002308C1 /* InfoPlist.strings */; };
+		3FED41151981331E002308C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FED41141981331E002308C1 /* main.m */; };
+		3FED41191981331E002308C1 /* EHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FED41181981331E002308C1 /* EHAppDelegate.m */; };
+		3FED411C1981331E002308C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FED411A1981331E002308C1 /* Main.storyboard */; };
+		3FED411F1981331E002308C1 /* EHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FED411E1981331E002308C1 /* EHViewController.m */; };
+		3FED41211981331E002308C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FED41201981331E002308C1 /* Images.xcassets */; };
+		3FED41281981331E002308C1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FED41271981331E002308C1 /* XCTest.framework */; };
+		3FED41291981331E002308C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FED41081981331D002308C1 /* Foundation.framework */; };
+		3FED412A1981331E002308C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FED410C1981331D002308C1 /* UIKit.framework */; };
+		3FED41321981331E002308C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FED41301981331E002308C1 /* InfoPlist.strings */; };
+		3FED41341981331E002308C1 /* NSUserDefaults__Segues_and_Protocols_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FED41331981331E002308C1 /* NSUserDefaults__Segues_and_Protocols_Challenge_SolutionTests.m */; };
+		3FED414019826B1A002308C1 /* EHSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FED413F19826B1A002308C1 /* EHSignInViewController.m */; };
+		3FED414319826B2B002308C1 /* EHCreateAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FED414219826B2B002308C1 /* EHCreateAccountViewController.m */; };
+		3FED414619827703002308C1 /* EHUserLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FED414519827703002308C1 /* EHUserLogin.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FED412B1981331E002308C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FED40FD1981331D002308C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FED41041981331D002308C1;
+			remoteInfo = "NSUserDefaults, Segues and Protocols Challenge Solution";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FED41051981331D002308C1 /* NSUserDefaults, Segues and Protocols Challenge Solution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSUserDefaults, Segues and Protocols Challenge Solution.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FED41081981331D002308C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3FED410A1981331D002308C1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3FED410C1981331D002308C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3FED41101981331E002308C1 /* NSUserDefaults, Segues and Protocols Challenge Solution-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSUserDefaults, Segues and Protocols Challenge Solution-Info.plist"; sourceTree = "<group>"; };
+		3FED41121981331E002308C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3FED41141981331E002308C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3FED41161981331E002308C1 /* NSUserDefaults, Segues and Protocols Challenge Solution-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults, Segues and Protocols Challenge Solution-Prefix.pch"; sourceTree = "<group>"; };
+		3FED41171981331E002308C1 /* EHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EHAppDelegate.h; sourceTree = "<group>"; };
+		3FED41181981331E002308C1 /* EHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EHAppDelegate.m; sourceTree = "<group>"; };
+		3FED411B1981331E002308C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FED411D1981331E002308C1 /* EHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EHViewController.h; sourceTree = "<group>"; };
+		3FED411E1981331E002308C1 /* EHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EHViewController.m; sourceTree = "<group>"; };
+		3FED41201981331E002308C1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3FED41261981331E002308C1 /* NSUserDefaults, Segues and Protocols Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSUserDefaults, Segues and Protocols Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FED41271981331E002308C1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3FED412F1981331E002308C1 /* NSUserDefaults, Segues and Protocols Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSUserDefaults, Segues and Protocols Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
+		3FED41311981331E002308C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3FED41331981331E002308C1 /* NSUserDefaults__Segues_and_Protocols_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSUserDefaults__Segues_and_Protocols_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		3FED413E19826B1A002308C1 /* EHSignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHSignInViewController.h; sourceTree = "<group>"; };
+		3FED413F19826B1A002308C1 /* EHSignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHSignInViewController.m; sourceTree = "<group>"; };
+		3FED414119826B2B002308C1 /* EHCreateAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHCreateAccountViewController.h; sourceTree = "<group>"; };
+		3FED414219826B2B002308C1 /* EHCreateAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHCreateAccountViewController.m; sourceTree = "<group>"; };
+		3FED414419827703002308C1 /* EHUserLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHUserLogin.h; sourceTree = "<group>"; };
+		3FED414519827703002308C1 /* EHUserLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHUserLogin.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FED41021981331D002308C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FED410B1981331D002308C1 /* CoreGraphics.framework in Frameworks */,
+				3FED410D1981331D002308C1 /* UIKit.framework in Frameworks */,
+				3FED41091981331D002308C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FED41231981331E002308C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FED41281981331E002308C1 /* XCTest.framework in Frameworks */,
+				3FED412A1981331E002308C1 /* UIKit.framework in Frameworks */,
+				3FED41291981331E002308C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FED40FC1981331D002308C1 = {
+			isa = PBXGroup;
+			children = (
+				3FED410E1981331D002308C1 /* NSUserDefaults, Segues and Protocols Challenge Solution */,
+				3FED412D1981331E002308C1 /* NSUserDefaults, Segues and Protocols Challenge SolutionTests */,
+				3FED41071981331D002308C1 /* Frameworks */,
+				3FED41061981331D002308C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FED41061981331D002308C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FED41051981331D002308C1 /* NSUserDefaults, Segues and Protocols Challenge Solution.app */,
+				3FED41261981331E002308C1 /* NSUserDefaults, Segues and Protocols Challenge SolutionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FED41071981331D002308C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FED41081981331D002308C1 /* Foundation.framework */,
+				3FED410A1981331D002308C1 /* CoreGraphics.framework */,
+				3FED410C1981331D002308C1 /* UIKit.framework */,
+				3FED41271981331E002308C1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3FED410E1981331D002308C1 /* NSUserDefaults, Segues and Protocols Challenge Solution */ = {
+			isa = PBXGroup;
+			children = (
+				3FED41171981331E002308C1 /* EHAppDelegate.h */,
+				3FED41181981331E002308C1 /* EHAppDelegate.m */,
+				3FED411A1981331E002308C1 /* Main.storyboard */,
+				3FED41201981331E002308C1 /* Images.xcassets */,
+				3FED413D19826AE9002308C1 /* View Controllers */,
+				3FED414719827709002308C1 /* Models */,
+				3FED410F1981331E002308C1 /* Supporting Files */,
+			);
+			path = "NSUserDefaults, Segues and Protocols Challenge Solution";
+			sourceTree = "<group>";
+		};
+		3FED410F1981331E002308C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FED41101981331E002308C1 /* NSUserDefaults, Segues and Protocols Challenge Solution-Info.plist */,
+				3FED41111981331E002308C1 /* InfoPlist.strings */,
+				3FED41141981331E002308C1 /* main.m */,
+				3FED41161981331E002308C1 /* NSUserDefaults, Segues and Protocols Challenge Solution-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FED412D1981331E002308C1 /* NSUserDefaults, Segues and Protocols Challenge SolutionTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FED41331981331E002308C1 /* NSUserDefaults__Segues_and_Protocols_Challenge_SolutionTests.m */,
+				3FED412E1981331E002308C1 /* Supporting Files */,
+			);
+			path = "NSUserDefaults, Segues and Protocols Challenge SolutionTests";
+			sourceTree = "<group>";
+		};
+		3FED412E1981331E002308C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FED412F1981331E002308C1 /* NSUserDefaults, Segues and Protocols Challenge SolutionTests-Info.plist */,
+				3FED41301981331E002308C1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FED413D19826AE9002308C1 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3FED413E19826B1A002308C1 /* EHSignInViewController.h */,
+				3FED413F19826B1A002308C1 /* EHSignInViewController.m */,
+				3FED414119826B2B002308C1 /* EHCreateAccountViewController.h */,
+				3FED414219826B2B002308C1 /* EHCreateAccountViewController.m */,
+				3FED411D1981331E002308C1 /* EHViewController.h */,
+				3FED411E1981331E002308C1 /* EHViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		3FED414719827709002308C1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3FED414419827703002308C1 /* EHUserLogin.h */,
+				3FED414519827703002308C1 /* EHUserLogin.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FED41041981331D002308C1 /* NSUserDefaults, Segues and Protocols Challenge Solution */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FED41371981331E002308C1 /* Build configuration list for PBXNativeTarget "NSUserDefaults, Segues and Protocols Challenge Solution" */;
+			buildPhases = (
+				3FED41011981331D002308C1 /* Sources */,
+				3FED41021981331D002308C1 /* Frameworks */,
+				3FED41031981331D002308C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSUserDefaults, Segues and Protocols Challenge Solution";
+			productName = "NSUserDefaults, Segues and Protocols Challenge Solution";
+			productReference = 3FED41051981331D002308C1 /* NSUserDefaults, Segues and Protocols Challenge Solution.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FED41251981331E002308C1 /* NSUserDefaults, Segues and Protocols Challenge SolutionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FED413A1981331E002308C1 /* Build configuration list for PBXNativeTarget "NSUserDefaults, Segues and Protocols Challenge SolutionTests" */;
+			buildPhases = (
+				3FED41221981331E002308C1 /* Sources */,
+				3FED41231981331E002308C1 /* Frameworks */,
+				3FED41241981331E002308C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FED412C1981331E002308C1 /* PBXTargetDependency */,
+			);
+			name = "NSUserDefaults, Segues and Protocols Challenge SolutionTests";
+			productName = "NSUserDefaults, Segues and Protocols Challenge SolutionTests";
+			productReference = 3FED41261981331E002308C1 /* NSUserDefaults, Segues and Protocols Challenge SolutionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FED40FD1981331D002308C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EH;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Keydood;
+				TargetAttributes = {
+					3FED41251981331E002308C1 = {
+						TestTargetID = 3FED41041981331D002308C1;
+					};
+				};
+			};
+			buildConfigurationList = 3FED41001981331D002308C1 /* Build configuration list for PBXProject "NSUserDefaults, Segues and Protocols Challenge Solution" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FED40FC1981331D002308C1;
+			productRefGroup = 3FED41061981331D002308C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FED41041981331D002308C1 /* NSUserDefaults, Segues and Protocols Challenge Solution */,
+				3FED41251981331E002308C1 /* NSUserDefaults, Segues and Protocols Challenge SolutionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FED41031981331D002308C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FED41211981331E002308C1 /* Images.xcassets in Resources */,
+				3FED41131981331E002308C1 /* InfoPlist.strings in Resources */,
+				3FED411C1981331E002308C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FED41241981331E002308C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FED41321981331E002308C1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FED41011981331D002308C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FED411F1981331E002308C1 /* EHViewController.m in Sources */,
+				3FED414619827703002308C1 /* EHUserLogin.m in Sources */,
+				3FED41151981331E002308C1 /* main.m in Sources */,
+				3FED41191981331E002308C1 /* EHAppDelegate.m in Sources */,
+				3FED414319826B2B002308C1 /* EHCreateAccountViewController.m in Sources */,
+				3FED414019826B1A002308C1 /* EHSignInViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FED41221981331E002308C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FED41341981331E002308C1 /* NSUserDefaults__Segues_and_Protocols_Challenge_SolutionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FED412C1981331E002308C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FED41041981331D002308C1 /* NSUserDefaults, Segues and Protocols Challenge Solution */;
+			targetProxy = 3FED412B1981331E002308C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FED41111981331E002308C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FED41121981331E002308C1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3FED411A1981331E002308C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FED411B1981331E002308C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FED41301981331E002308C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FED41311981331E002308C1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FED41351981331E002308C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3FED41361981331E002308C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FED41381981331E002308C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSUserDefaults, Segues and Protocols Challenge Solution/NSUserDefaults, Segues and Protocols Challenge Solution-Prefix.pch";
+				INFOPLIST_FILE = "NSUserDefaults, Segues and Protocols Challenge Solution/NSUserDefaults, Segues and Protocols Challenge Solution-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3FED41391981331E002308C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSUserDefaults, Segues and Protocols Challenge Solution/NSUserDefaults, Segues and Protocols Challenge Solution-Prefix.pch";
+				INFOPLIST_FILE = "NSUserDefaults, Segues and Protocols Challenge Solution/NSUserDefaults, Segues and Protocols Challenge Solution-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3FED413B1981331E002308C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NSUserDefaults, Segues and Protocols Challenge Solution.app/NSUserDefaults, Segues and Protocols Challenge Solution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSUserDefaults, Segues and Protocols Challenge Solution/NSUserDefaults, Segues and Protocols Challenge Solution-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NSUserDefaults, Segues and Protocols Challenge SolutionTests/NSUserDefaults, Segues and Protocols Challenge SolutionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3FED413C1981331E002308C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NSUserDefaults, Segues and Protocols Challenge Solution.app/NSUserDefaults, Segues and Protocols Challenge Solution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSUserDefaults, Segues and Protocols Challenge Solution/NSUserDefaults, Segues and Protocols Challenge Solution-Prefix.pch";
+				INFOPLIST_FILE = "NSUserDefaults, Segues and Protocols Challenge SolutionTests/NSUserDefaults, Segues and Protocols Challenge SolutionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FED41001981331D002308C1 /* Build configuration list for PBXProject "NSUserDefaults, Segues and Protocols Challenge Solution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FED41351981331E002308C1 /* Debug */,
+				3FED41361981331E002308C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FED41371981331E002308C1 /* Build configuration list for PBXNativeTarget "NSUserDefaults, Segues and Protocols Challenge Solution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FED41381981331E002308C1 /* Debug */,
+				3FED41391981331E002308C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FED413A1981331E002308C1 /* Build configuration list for PBXNativeTarget "NSUserDefaults, Segues and Protocols Challenge SolutionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FED413B1981331E002308C1 /* Debug */,
+				3FED413C1981331E002308C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FED40FD1981331D002308C1 /* Project object */;
+}

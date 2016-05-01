@@ -1,0 +1,13 @@
+//
+//  EHLoginViewController.h
+//  Playing with Matches
+//
+//  Created by Elad Hayun on 8/19/14.
+//  Copyright (c) 2014 Keydood. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface EHLoginViewController : UIViewController <NSURLConnectionDataDelegate>
+
+@end

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="EHViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pony" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BN8-Ec-Pci">
+                                <rect key="frame" x="141" y="221" width="39" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="39" id="awd-gA-chU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rocket Ship" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kpP-R6-z2T">
+                                <rect key="frame" x="113" y="273" width="94" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Elephant" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qTJ-DM-8yG">
+                                <rect key="frame" x="126" y="325" width="68" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ke6-JP-fes">
+                                <rect key="frame" x="20" y="40" width="130" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.075075977840000002" green="0.79935886550000002" blue="0.081886535699999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Will I get one?">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="eso-jo-fxX">
+                                <rect key="frame" x="170" y="40" width="130" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="Want"/>
+                                    <segment title="Don't Want"/>
+                                </segments>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="eso-jo-fxX" firstAttribute="width" secondItem="ke6-JP-fes" secondAttribute="width" id="B8g-lb-xN7"/>
+                            <constraint firstItem="eso-jo-fxX" firstAttribute="leading" secondItem="ke6-JP-fes" secondAttribute="trailing" constant="20" id="CrT-zV-LBA"/>
+                            <constraint firstAttribute="centerY" secondItem="BN8-Ec-Pci" secondAttribute="centerY" constant="52.5" id="Em9-eq-kn2"/>
+                            <constraint firstItem="qTJ-DM-8yG" firstAttribute="centerX" secondItem="kpP-R6-z2T" secondAttribute="centerX" id="H6o-Ws-mBF"/>
+                            <constraint firstItem="ke6-JP-fes" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="20" id="KG2-ht-Bex"/>
+                            <constraint firstItem="kpP-R6-z2T" firstAttribute="top" secondItem="BN8-Ec-Pci" secondAttribute="bottom" constant="31" id="LAn-ls-zfc"/>
+                            <constraint firstItem="BN8-Ec-Pci" firstAttribute="trailing" secondItem="kpP-R6-z2T" secondAttribute="trailing" constant="-27" id="OCO-RC-L4e"/>
+                            <constraint firstItem="qTJ-DM-8yG" firstAttribute="top" secondItem="kpP-R6-z2T" secondAttribute="bottom" constant="31" id="PcH-4J-jHs"/>
+                            <constraint firstAttribute="centerX" secondItem="BN8-Ec-Pci" secondAttribute="centerX" constant="-0.5" id="Q0e-lh-qHN"/>
+                            <constraint firstAttribute="trailing" secondItem="eso-jo-fxX" secondAttribute="trailing" constant="20" id="SWV-g3-sFi"/>
+                            <constraint firstItem="eso-jo-fxX" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="20" id="Uze-Wm-f5R"/>
+                            <constraint firstItem="ke6-JP-fes" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="VyE-LR-DOE"/>
+                            <constraint firstItem="eso-jo-fxX" firstAttribute="top" secondItem="ke6-JP-fes" secondAttribute="top" id="a3V-Wr-2qY"/>
+                            <constraint firstItem="BN8-Ec-Pci" firstAttribute="leading" secondItem="kpP-R6-z2T" secondAttribute="leading" constant="28" id="doD-BF-P2k"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,30 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+// Define statements for tasks dictionary strings
+#define TASK_TITLE @"Task Title"
+#define TASK_DESCRIPTION @"Task Description"
+#define TASK_DATE @"Task Due Date"
+#define TASK_COMPLETION @"Task Completed"
+
+// Define statements for NSUserDefaults
+#define TASKS_ARRAY @"Tasks Array"
+
+// Define statements for UIAlerts
+#define MESSAGE_TASK_CREATION_ERROR @"New Task Creation Error!"
+#define MESSAGE_TASK_REQUIRED_FIELDS @"Please make sure to fill all required fields."
+#define BUTTON_TEXT_TRY_AGAIN @"Try Again"
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif

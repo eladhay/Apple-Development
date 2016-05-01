@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D2C798F9-3E24-4B6D-B37D-CBDFF1FCCE96</string>
+	<key>IDESourceControlProjectName</key>
+	<string>A View to the World</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E3E987E8-00D4-4FC3-9094-A536BA6C02CB</key>
+		<string>https://github.com/eladhay/BitFountain-iOS-7-Course.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>A View to the World/A View to the World/A View to the World.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E3E987E8-00D4-4FC3-9094-A536BA6C02CB</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/eladhay/BitFountain-iOS-7-Course.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E3E987E8-00D4-4FC3-9094-A536BA6C02CB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E3E987E8-00D4-4FC3-9094-A536BA6C02CB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>A View to the World</string>
+		</dict>
+	</array>
+</dict>
+</plist>

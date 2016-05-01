@@ -1,0 +1,27 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+// Define statements for global strings
+#define USER_LOGINS @"user logins array"
+#define USER_NAME @"username"
+#define USER_PASSWORD @"password"
+#define MESSAGE_ACCOUNT_LOGIN_ERROR @"Account Login Error!"
+#define MESSAGE_ACCOUNT_CREATION_ERROR @"Account Creation Error!"
+#define MESSAGE_REQUIRED_FIELDS @"Please make sure to fill all required fields."
+#define MESSAGE_WRONG_USERNAME_PASSWORD @"Wrong username or password."
+#define MESSAGE_PASSWORDS_MISMATCH @"Passwords do not match."
+#define BUTTON_TEXT_TRY_AGAIN @"Try Again"
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif

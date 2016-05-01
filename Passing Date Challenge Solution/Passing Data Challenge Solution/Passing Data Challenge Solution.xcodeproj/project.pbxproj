@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F3A0535197E936B00BC7FEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3A0534197E936B00BC7FEC /* Foundation.framework */; };
+		3F3A0537197E936C00BC7FEC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3A0536197E936C00BC7FEC /* CoreGraphics.framework */; };
+		3F3A0539197E936C00BC7FEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3A0538197E936C00BC7FEC /* UIKit.framework */; };
+		3F3A053F197E936C00BC7FEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F3A053D197E936C00BC7FEC /* InfoPlist.strings */; };
+		3F3A0541197E936C00BC7FEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A0540197E936C00BC7FEC /* main.m */; };
+		3F3A0545197E936C00BC7FEC /* EHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A0544197E936C00BC7FEC /* EHAppDelegate.m */; };
+		3F3A0548197E936C00BC7FEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3A0546197E936C00BC7FEC /* Main.storyboard */; };
+		3F3A054B197E936C00BC7FEC /* EHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A054A197E936C00BC7FEC /* EHViewController.m */; };
+		3F3A054D197E936C00BC7FEC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3A054C197E936C00BC7FEC /* Images.xcassets */; };
+		3F3A0554197E936C00BC7FEC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3A0553197E936C00BC7FEC /* XCTest.framework */; };
+		3F3A0555197E936C00BC7FEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3A0534197E936B00BC7FEC /* Foundation.framework */; };
+		3F3A0556197E936C00BC7FEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3A0538197E936C00BC7FEC /* UIKit.framework */; };
+		3F3A055E197E936C00BC7FEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F3A055C197E936C00BC7FEC /* InfoPlist.strings */; };
+		3F3A0560197E936C00BC7FEC /* Passing_Data_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A055F197E936C00BC7FEC /* Passing_Data_Challenge_SolutionTests.m */; };
+		3F3A056B197E941400BC7FEC /* EHDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A056A197E941400BC7FEC /* EHDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F3A0557197E936C00BC7FEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F3A0529197E936B00BC7FEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F3A0530197E936B00BC7FEC;
+			remoteInfo = "Passing Data Challenge Solution";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F3A0531197E936B00BC7FEC /* Passing Data Challenge Solution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Passing Data Challenge Solution.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3A0534197E936B00BC7FEC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3F3A0536197E936C00BC7FEC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3F3A0538197E936C00BC7FEC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3F3A053C197E936C00BC7FEC /* Passing Data Challenge Solution-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Passing Data Challenge Solution-Info.plist"; sourceTree = "<group>"; };
+		3F3A053E197E936C00BC7FEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F3A0540197E936C00BC7FEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F3A0542197E936C00BC7FEC /* Passing Data Challenge Solution-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Passing Data Challenge Solution-Prefix.pch"; sourceTree = "<group>"; };
+		3F3A0543197E936C00BC7FEC /* EHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EHAppDelegate.h; sourceTree = "<group>"; };
+		3F3A0544197E936C00BC7FEC /* EHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EHAppDelegate.m; sourceTree = "<group>"; };
+		3F3A0547197E936C00BC7FEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F3A0549197E936C00BC7FEC /* EHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EHViewController.h; sourceTree = "<group>"; };
+		3F3A054A197E936C00BC7FEC /* EHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EHViewController.m; sourceTree = "<group>"; };
+		3F3A054C197E936C00BC7FEC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3F3A0552197E936C00BC7FEC /* Passing Data Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Passing Data Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3A0553197E936C00BC7FEC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3F3A055B197E936C00BC7FEC /* Passing Data Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Passing Data Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
+		3F3A055D197E936C00BC7FEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F3A055F197E936C00BC7FEC /* Passing_Data_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Passing_Data_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		3F3A0569197E941400BC7FEC /* EHDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHDetailViewController.h; sourceTree = "<group>"; };
+		3F3A056A197E941400BC7FEC /* EHDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F3A052E197E936B00BC7FEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3A0537197E936C00BC7FEC /* CoreGraphics.framework in Frameworks */,
+				3F3A0539197E936C00BC7FEC /* UIKit.framework in Frameworks */,
+				3F3A0535197E936B00BC7FEC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3A054F197E936C00BC7FEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3A0554197E936C00BC7FEC /* XCTest.framework in Frameworks */,
+				3F3A0556197E936C00BC7FEC /* UIKit.framework in Frameworks */,
+				3F3A0555197E936C00BC7FEC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F3A0528197E936B00BC7FEC = {
+			isa = PBXGroup;
+			children = (
+				3F3A053A197E936C00BC7FEC /* Passing Data Challenge Solution */,
+				3F3A0559197E936C00BC7FEC /* Passing Data Challenge SolutionTests */,
+				3F3A0533197E936B00BC7FEC /* Frameworks */,
+				3F3A0532197E936B00BC7FEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F3A0532197E936B00BC7FEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F3A0531197E936B00BC7FEC /* Passing Data Challenge Solution.app */,
+				3F3A0552197E936C00BC7FEC /* Passing Data Challenge SolutionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F3A0533197E936B00BC7FEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F3A0534197E936B00BC7FEC /* Foundation.framework */,
+				3F3A0536197E936C00BC7FEC /* CoreGraphics.framework */,
+				3F3A0538197E936C00BC7FEC /* UIKit.framework */,
+				3F3A0553197E936C00BC7FEC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F3A053A197E936C00BC7FEC /* Passing Data Challenge Solution */ = {
+			isa = PBXGroup;
+			children = (
+				3F3A0543197E936C00BC7FEC /* EHAppDelegate.h */,
+				3F3A0544197E936C00BC7FEC /* EHAppDelegate.m */,
+				3F3A0546197E936C00BC7FEC /* Main.storyboard */,
+				3F3A0549197E936C00BC7FEC /* EHViewController.h */,
+				3F3A054A197E936C00BC7FEC /* EHViewController.m */,
+				3F3A0569197E941400BC7FEC /* EHDetailViewController.h */,
+				3F3A056A197E941400BC7FEC /* EHDetailViewController.m */,
+				3F3A054C197E936C00BC7FEC /* Images.xcassets */,
+				3F3A053B197E936C00BC7FEC /* Supporting Files */,
+			);
+			path = "Passing Data Challenge Solution";
+			sourceTree = "<group>";
+		};
+		3F3A053B197E936C00BC7FEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F3A053C197E936C00BC7FEC /* Passing Data Challenge Solution-Info.plist */,
+				3F3A053D197E936C00BC7FEC /* InfoPlist.strings */,
+				3F3A0540197E936C00BC7FEC /* main.m */,
+				3F3A0542197E936C00BC7FEC /* Passing Data Challenge Solution-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F3A0559197E936C00BC7FEC /* Passing Data Challenge SolutionTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F3A055F197E936C00BC7FEC /* Passing_Data_Challenge_SolutionTests.m */,
+				3F3A055A197E936C00BC7FEC /* Supporting Files */,
+			);
+			path = "Passing Data Challenge SolutionTests";
+			sourceTree = "<group>";
+		};
+		3F3A055A197E936C00BC7FEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F3A055B197E936C00BC7FEC /* Passing Data Challenge SolutionTests-Info.plist */,
+				3F3A055C197E936C00BC7FEC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F3A0530197E936B00BC7FEC /* Passing Data Challenge Solution */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F3A0563197E936C00BC7FEC /* Build configuration list for PBXNativeTarget "Passing Data Challenge Solution" */;
+			buildPhases = (
+				3F3A052D197E936B00BC7FEC /* Sources */,
+				3F3A052E197E936B00BC7FEC /* Frameworks */,
+				3F3A052F197E936B00BC7FEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Passing Data Challenge Solution";
+			productName = "Passing Data Challenge Solution";
+			productReference = 3F3A0531197E936B00BC7FEC /* Passing Data Challenge Solution.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F3A0551197E936C00BC7FEC /* Passing Data Challenge SolutionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F3A0566197E936C00BC7FEC /* Build configuration list for PBXNativeTarget "Passing Data Challenge SolutionTests" */;
+			buildPhases = (
+				3F3A054E197E936C00BC7FEC /* Sources */,
+				3F3A054F197E936C00BC7FEC /* Frameworks */,
+				3F3A0550197E936C00BC7FEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F3A0558197E936C00BC7FEC /* PBXTargetDependency */,
+			);
+			name = "Passing Data Challenge SolutionTests";
+			productName = "Passing Data Challenge SolutionTests";
+			productReference = 3F3A0552197E936C00BC7FEC /* Passing Data Challenge SolutionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F3A0529197E936B00BC7FEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EH;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Keydood;
+				TargetAttributes = {
+					3F3A0551197E936C00BC7FEC = {
+						TestTargetID = 3F3A0530197E936B00BC7FEC;
+					};
+				};
+			};
+			buildConfigurationList = 3F3A052C197E936B00BC7FEC /* Build configuration list for PBXProject "Passing Data Challenge Solution" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F3A0528197E936B00BC7FEC;
+			productRefGroup = 3F3A0532197E936B00BC7FEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F3A0530197E936B00BC7FEC /* Passing Data Challenge Solution */,
+				3F3A0551197E936C00BC7FEC /* Passing Data Challenge SolutionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F3A052F197E936B00BC7FEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3A054D197E936C00BC7FEC /* Images.xcassets in Resources */,
+				3F3A053F197E936C00BC7FEC /* InfoPlist.strings in Resources */,
+				3F3A0548197E936C00BC7FEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3A0550197E936C00BC7FEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3A055E197E936C00BC7FEC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F3A052D197E936B00BC7FEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3A054B197E936C00BC7FEC /* EHViewController.m in Sources */,
+				3F3A0541197E936C00BC7FEC /* main.m in Sources */,
+				3F3A056B197E941400BC7FEC /* EHDetailViewController.m in Sources */,
+				3F3A0545197E936C00BC7FEC /* EHAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3A054E197E936C00BC7FEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3A0560197E936C00BC7FEC /* Passing_Data_Challenge_SolutionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F3A0558197E936C00BC7FEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F3A0530197E936B00BC7FEC /* Passing Data Challenge Solution */;
+			targetProxy = 3F3A0557197E936C00BC7FEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F3A053D197E936C00BC7FEC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F3A053E197E936C00BC7FEC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3F3A0546197E936C00BC7FEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F3A0547197E936C00BC7FEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F3A055C197E936C00BC7FEC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F3A055D197E936C00BC7FEC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F3A0561197E936C00BC7FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F3A0562197E936C00BC7FEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F3A0564197E936C00BC7FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Passing Data Challenge Solution/Passing Data Challenge Solution-Prefix.pch";
+				INFOPLIST_FILE = "Passing Data Challenge Solution/Passing Data Challenge Solution-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3F3A0565197E936C00BC7FEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Passing Data Challenge Solution/Passing Data Challenge Solution-Prefix.pch";
+				INFOPLIST_FILE = "Passing Data Challenge Solution/Passing Data Challenge Solution-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3F3A0567197E936C00BC7FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Passing Data Challenge Solution.app/Passing Data Challenge Solution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Passing Data Challenge Solution/Passing Data Challenge Solution-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Passing Data Challenge SolutionTests/Passing Data Challenge SolutionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3F3A0568197E936C00BC7FEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Passing Data Challenge Solution.app/Passing Data Challenge Solution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Passing Data Challenge Solution/Passing Data Challenge Solution-Prefix.pch";
+				INFOPLIST_FILE = "Passing Data Challenge SolutionTests/Passing Data Challenge SolutionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F3A052C197E936B00BC7FEC /* Build configuration list for PBXProject "Passing Data Challenge Solution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3A0561197E936C00BC7FEC /* Debug */,
+				3F3A0562197E936C00BC7FEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F3A0563197E936C00BC7FEC /* Build configuration list for PBXNativeTarget "Passing Data Challenge Solution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3A0564197E936C00BC7FEC /* Debug */,
+				3F3A0565197E936C00BC7FEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F3A0566197E936C00BC7FEC /* Build configuration list for PBXNativeTarget "Passing Data Challenge SolutionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3A0567197E936C00BC7FEC /* Debug */,
+				3F3A0568197E936C00BC7FEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F3A0529197E936B00BC7FEC /* Project object */;
+}
